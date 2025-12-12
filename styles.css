@@ -55,3 +55,42 @@ img{
 .option-btn:active {
     transform: scale(0.98);
 }
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.menu-btn {
+    background-color: #03CAC6;
+    color: #1F1B24;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.menu-btn:hover {
+    transform: scale(1.05);
+    background-color: #02a8a5;
+    color: white;
+}
+
+.btn-voltar {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border: 1px solid #03CAC6;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.btn-voltar:hover {
+    background-color: #03CAC6;
+    color: #1F1B24;
+}
